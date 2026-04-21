@@ -2,11 +2,11 @@
 
 
 // This is where you add the two functions
-float fahrenheit_to_celcius(float f) {
+float fahrenheit_to_celsius(float f) {
     return (f - 32.0f) * 5.0f / 9.0f;
 }
 
-float celcius_to_fahrenheit(float c) {
+float celsius_to_fahrenheit(float c) {
     return (c * 9.0f / 5.0f) + 32.0f;
 }
 
